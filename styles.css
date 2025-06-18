@@ -1,0 +1,320 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding-top: 60px;
+    /* Make space for fixed navbar */
+}
+
+/* Header Styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2b3a67;
+    text-decoration: none;
+}
+
+nav .nav-links a {
+    color: #2b3a67;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav .contact-btn {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hero Section Styling */
+/* Hero Section Styling */
+.hero {
+    height: 85vh;
+    /* Increased height to 85vh */
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+    color: #2b3a67;
+    padding: 50px 20px;
+    /* Slightly increased padding */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 55px;
+    /* Increased font size for a larger title */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 22px;
+    /* Adjusted to be a bit larger */
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    font-size: 18px;
+    /* Adjusted button font size */
+    padding: 14px 30px;
+    /* Slightly larger button padding */
+}
+
+/* Why Choose Shield Section */
+.why-choose {
+    background-color: #f1f1f1;
+    /* Light background for contrast */
+    padding: 80px 20px;
+}
+
+.why-choose h2 {
+    font-size: 36px;
+    color: #2b3a67;
+    margin-bottom: 30px;
+}
+
+.why-choose .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.why-choose .col-lg-4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.why-choose .fa-3x {
+    color: #2b3a67;
+}
+
+.why-choose h5 {
+    margin-top: 10px;
+    font-size: 20px;
+    /* Larger font size for the feature titles */
+    color: #333;
+}
+
+.why-choose p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* Services Section */
+.services {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #2b3a67;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service {
+    background-color: #f8f8f8;
+    padding: 40px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #2b3a67;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* About Section */
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2b3a67;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #2b3a67;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-item h3 {
+    font-size: 24px;
+    color: #2b3a67;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 120px;  /* Increased margin-bottom for more space */
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact .btn {
+    font-size: 18px;
+    padding: 14px 30px;
+    margin-top: 20px;
+    /* Added space above the button */
+}
+
+/* Increased margin-bottom for more space between Contact Us and the Footer */
+.contact.mb-5 {
+    margin-bottom: 100px;
+    /* Increased bottom margin to create more space */
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .col-md-4 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #2b3a67;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+}
+
+/* Responsive Design for Footer */
+@media screen and (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .col-md-4 {
+        width: 100%;
+    }
+}
